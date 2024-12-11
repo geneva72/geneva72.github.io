@@ -130,23 +130,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
-  <!-- Footer -->
-  <footer class="footer">
-    <hr>
-    <center>
-      <div class="icons">
-        <!-- Email Icon -->
-        <a href="mailto:genisaacson@gmail.com" style="margin-right: 15px;">
-          <i class="fa fa-envelope-o fa-3x" style="color:#47a05b;"></i>
-        </a>
-        <!-- LinkedIn Icon -->
-        <a href="http://linkedin.com/in/genevaisaacson" target="_blank">
-          <i class="fa fa-linkedin fa-3x" style="color:#47a05b;"></i>
-        </a>
-      </div>
-      <!-- Line for spacing -->
+<!-- Footer -->
+<footer class="footer" style="margin: 0; padding: 0;">
+  <hr>
+  <center>
+    <div class="icons">
+      <!-- Email Icon -->
+      <a href="mailto:genisaacson@gmail.com" style="margin-right: 15px;">
+        <i class="fa fa-envelope-o fa-3x" style="color:#47a05b;"></i>
+      </a>
+      <!-- LinkedIn Icon -->
+      <a href="http://linkedin.com/in/genevaisaacson" target="_blank" style="margin-right: 15px;">
+        <i class="fa fa-linkedin fa-3x" style="color:#47a05b;"></i>
+      </a>
+      <!-- Google Scholar Icon -->
+      <a href="https://scholar.google.com/citations?user=STCx8N0AAAAJ&hl=en" target="_blank">
+        <i class="fa fa-graduation-cap fa-3x" style="color:#47a05b;"></i>
+      </a>
+    </div>
+    <!-- Line for spacing -->
     <hr style="margin-top: 20px; border-top: 1px solid #47a05b; width: 50%;">
-    </center>
-  </footer>
+  </center>
+</footer>
+
+<!-- Add Font Awesome for the icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+<!-- Add the following CSS to ensure no gap -->
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  .container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    margin-top: auto; /* Pushes the footer to the bottom */
+  }
+</style>
+
   
 </html>
